@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.out
+runs/*/ckpt_*.pt
+runs/*/log.csv
+results/*.mp4
+results/my_eval.json
