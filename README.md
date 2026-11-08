@@ -11,7 +11,7 @@ Nowadays, quadruped robot locomotion using RL policies is very popular. I am cur
 - Trained an all-direction walking controller with random motor failures (dead, stuck, weak).
 - Trained two teachers, one for a dead front thigh motor, one for a dead rear thigh motor.
 - Distilled them into one student. Fine-tuning made the student *forget* failures it used to
-  handle, so I added an **anchor** everywhere the teachers don't apply, the student is also
+  handle, so I added an **anchor** everywhere the teachers don not apply, the student is also
   pulled toward the original controller's behaviour.
 
 ## Results
@@ -26,7 +26,7 @@ Simulation, 16 robots per test with random floor grip, payload and pushes.
 
 ![results](media/summary.png)
 
-The anchor cut forgetting a lot (dead-hip falls 66 % → 22 %), but didn't remove it.
+The anchor cut forgetting a lot (dead-hip falls 66 % → 22 %) but did not remove it.
 
 ![rear-left thigh motor dead](media/rear_left_thigh.gif)
 
