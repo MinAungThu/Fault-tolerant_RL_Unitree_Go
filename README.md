@@ -6,7 +6,7 @@ Nowadays, quadruped robot locomotion using RL policies is very popular. I am cur
 
 
 
-## What I did
+## Project Steps
 
 - Trained an all-direction walking controller with random motor failures (dead, stuck, weak).
 - Trained two teachers, one for a dead front thigh motor, one for a dead rear thigh motor.
